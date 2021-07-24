@@ -1,33 +1,26 @@
-.body_backgorund {
-    background-image: url("images\ \(5\).jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  body{
-    cursor: pointer;
-  }
-  h1
-  {
-      color: red; 
-      font-size: 40px;
-  }
-  #myCanvas
-  {
-      border-width:10px;
-      background-color: white; 
-      border-style:ridge;
-  }
-
-  button {
-    background-color: #4CAF50;
-    border: none;
+.heading{
+    font-family: cursive;
+    font-size: 30px;
+    margin: 0px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 18px grey;
+    color: black;
+}
+.note{
+    font-size: 25zpx;
+    color: rgb(243, 198, 114);
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: grey;
     color: white;
-    padding: 10px 42px;
-    font-size: 16px;
-  }
-
-  input
-  {
-    margin-right: 20px;
-  }
-  
+    line-height: 3;
+    text-align: center;
+    font-size: 20px;
+}
+canvas{
+    border: dashed black 5px;
+    border-radius: 0;
+}
